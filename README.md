@@ -7,7 +7,10 @@
 ## Screenshots
 <div style="display: flex; flex-direction: column; width: 100%; justify-content: space-evenly;">
     <img src="screenshots/screenshot2.PNG" width = "400px" style="border-radius: 10px; margin-top: 10px;">
+    <br>
     <img src="screenshots/screenshot1.PNG" width = "400px" style="border-radius: 10px; margin-top: 10px;"> 
+    <br>
     <img src="screenshots/screenshot3.PNG" width = "400px" style="border-radius: 10px; margin-top: 10px;">
+    <br>
     <img src="./screenshots/screen.gif" width = "400px" style="border-radius: 10px; margin-top: 10px;">
 </div>
