@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Meus Cursos",
+    "description": "Essa extensão permite os alunos organizarem a lista de Meus Cursos no Painel da plataforma EAD do IFMG Campus Bambuí",
+    "version": "1.0.0",
+    "author": "Herik Aparecida Ramos da Silva",
+
+    "content_scripts": [
+        {
+          "matches": ["https://ava.bambui.ifmg.edu.br/my/index.php"],
+          "css": ["style.css"],
+          "js": ["script.js"]
+        }
+    ]
+}
