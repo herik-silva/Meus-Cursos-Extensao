@@ -14,10 +14,10 @@
 </ul>
 
 # Screenshots 
-<img src="screenshots/Screenshot1.PNG" width = "70%" style="border-radius: 10px; margin-top: 10px;"> 
+<img src="screenshots/Screenshot1.PNG" width = "100%" style="border-radius: 10px; margin-top: 10px;"> 
 <br>
-<img src="screenshots/Screenshot2.PNG" width = "70%" style="border-radius: 10px; margin-top: 10px;">
+<img src="screenshots/Screenshot2.PNG" width = "100%" style="border-radius: 10px; margin-top: 10px;">
 <br>
-<img src="screenshots/Screenshot3.PNG" width = "70%" style="border-radius: 10px; margin-top: 10px;">
+<img src="screenshots/Screenshot3.PNG" width = "100%" style="border-radius: 10px; margin-top: 10px;">
 <br>
-<img src="screenshots/Screenshot4.PNG" width = "70%" style="border-radius: 10px; margin-top: 10px;">
+<img src="screenshots/Screenshot4.PNG" width = "100%" style="border-radius: 10px; margin-top: 10px;">
