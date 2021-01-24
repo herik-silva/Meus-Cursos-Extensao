@@ -21,3 +21,15 @@
 <img src="screenshots/Screenshot3.PNG" width = "100%" style="border-radius: 10px; margin-top: 10px;">
 <br>
 <img src="screenshots/Screenshot4.PNG" width = "100%" style="border-radius: 10px; margin-top: 10px;">
+<br>
+
+# Como instalar a extensão
+<img src="screenshots/Tutorial1.jpg" width = "100%" style="border-radius: 10px; margin-top: 10px;"> 
+<br>
+<img src="screenshots/Tutorial2.jpg" width = "100%" style="border-radius: 10px; margin-top: 10px;">
+<br>
+<img src="screenshots/Tutorial3.jpg" width = "100%" style="border-radius: 10px; margin-top: 10px;">
+<br>
+<img src="screenshots/Tutorial4.jpg" width = "100%" style="border-radius: 10px; margin-top: 10px;">
+<br>
+<img src="screenshots/Tutorial5.jpg" width = "100%" style="border-radius: 10px; margin-top: 10px;">
