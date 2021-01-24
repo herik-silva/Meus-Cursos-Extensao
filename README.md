@@ -1,4 +1,4 @@
-<img src='./src/icon/icon128.png'/>
+<img src='Extensão/icon/icon128.png'/>
 
 # Meus Cursos
 
