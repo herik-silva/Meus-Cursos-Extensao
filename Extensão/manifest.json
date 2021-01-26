@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Meus Cursos",
-  "description": "Organize sua lista de cursos na plataforma EAD do IFMG Campus Bambuí.",
+  "description": "Organize sua lista de cursos na plataforma AVA.",
   "version": "1.0.0",
   "author": "Herik Aparecida Ramos da Silva",
   "icons": {
