@@ -24,6 +24,11 @@
 <br>
 
 # Como instalar a extensão
+Aqui no Github, clique em Code > Download Zip ou acesse o site e clique em baixar extensão
+https://meuscursos.vercel.app/
+
+
+Após baixar, siga os passos abaixo.
 <img src="screenshots/Tutorial1.jpg" width = "100%" style="border-radius: 10px; margin-top: 10px;"> 
 <br>
 <img src="screenshots/Tutorial2.jpg" width = "100%" style="border-radius: 10px; margin-top: 10px;">
