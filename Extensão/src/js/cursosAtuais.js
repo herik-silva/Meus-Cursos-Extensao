@@ -31,6 +31,11 @@ function iniciarMenuMeusCursos(){
             btn_cursos.innerHTML = "<i class='fa fa-briefcase fa-lg'></i>";
         },100);
     }
+
+    // Atualiza a lista de Meus Cursos no canto inferior direito
+    function atualizarCursos(){
+        
+    }
     
     // Mostra texto e icone no botão de Meus Cursos
     function textoIcone(){
