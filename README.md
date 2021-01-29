@@ -8,9 +8,7 @@
 ### Features     
 <ul>
     <li>Liste apenas seus cursos selecionados.</li>
-    <li>No canto inferior direito existe um botão para acessar de forma rápida a página do curso.</li>
-    <li>Adicione cursos e filtre apenas os cursos listados clicando em Cursos Atuais.</li>
-    <li>O Menu do canto inferior direito (Meus Cursos) pode ser acessado em todas as páginas da plataforma EAD</li>
+    <li>Acesse de forma rápida a página do curso no menu que se encontra no canto inferior direito.</li>
 </ul>
 
 # Screenshots 
@@ -22,19 +20,3 @@
 <br>
 <img src="screenshots/Screenshot4.PNG" width = "100%" style="border-radius: 10px; margin-top: 10px;">
 <br>
-
-# Como instalar a extensão
-Aqui no Github, clique em Code > Download Zip ou acesse o site e clique em baixar extensão
-https://meuscursos.vercel.app/
-
-
-Após baixar, siga os passos abaixo.
-<img src="screenshots/Tutorial1.jpg" width = "100%" style="border-radius: 10px; margin-top: 10px;"> 
-<br>
-<img src="screenshots/Tutorial2.jpg" width = "100%" style="border-radius: 10px; margin-top: 10px;">
-<br>
-<img src="screenshots/Tutorial3.jpg" width = "100%" style="border-radius: 10px; margin-top: 10px;">
-<br>
-<img src="screenshots/Tutorial4.jpg" width = "100%" style="border-radius: 10px; margin-top: 10px;">
-<br>
-<img src="screenshots/Tutorial5.jpg" width = "100%" style="border-radius: 10px; margin-top: 10px;">
