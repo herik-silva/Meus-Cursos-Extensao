@@ -1,4 +1,6 @@
 function iniciarMenuMeusCursos(){
+    var cursos = [];
+
     const div = document.createElement('div');
     div.className = 'containerCursosAtuais';
     
@@ -15,16 +17,6 @@ function iniciarMenuMeusCursos(){
     
     document.querySelector('body').appendChild(div);
     
-    // Carregando cursos selecionados
-    for(let i=0; i<materias_atuais.length; i++){
-        const div_curso = document.createElement('a');
-        div_curso.className = 'curso';
-        div_curso.href =  materias_atuais[i].link;
-        div_curso.innerText = materias_atuais[i].nomeMateria;
-    
-        div_cursosAtuais.appendChild(div_curso);
-    }
-    
     // Mostra apenas o icone no botão de Meus Cursos
     function apenasIcone(){
         setTimeout(()=>{
@@ -34,7 +26,25 @@ function iniciarMenuMeusCursos(){
 
     // Atualiza a lista de Meus Cursos no canto inferior direito
     function atualizarCursos(){
-        
+        cursos.forEach(item => div_cursosAtuais.removeChild(item));
+        cursos = [];
+
+        // Carregando cursos selecionados
+        carregarCursos();
+    }
+
+    // Carrega os cursos no menu Meus Cursos.
+    function carregarCursos(){
+        for(let i=0; i<materias_atuais.length; i++){
+            const div_curso = document.createElement('a');
+            div_curso.className = 'curso';
+            div_curso.href =  materias_atuais[i].link;
+            div_curso.innerText = materias_atuais[i].nomeMateria;
+            
+            cursos.push(div_curso);
+
+            div_cursosAtuais.appendChild(div_curso);
+        }
     }
     
     // Mostra texto e icone no botão de Meus Cursos
@@ -46,6 +56,7 @@ function iniciarMenuMeusCursos(){
     
     // Apresenta todos os cursos selecionados
     function mostrarCursos(){
+        atualizarCursos();
         btn_cursos.innerHTML = "<i class='fa fa-briefcase fa-lg'></i>Meus Cursos"
         div_cursosAtuais.style.display = 'flex';
         div.style.pointerEvents = 'all';
@@ -88,6 +99,8 @@ function iniciarMenuMeusCursos(){
     btn_cursos.addEventListener('mouseenter', textoIcone);
     
     btn_cursos.addEventListener('mouseout', apenasIcone);
+
+    carregarCursos();
 }
 
 iniciarMenuMeusCursos();
