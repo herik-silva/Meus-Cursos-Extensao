@@ -12,9 +12,9 @@
 
   "content_scripts": [
       {
-        "matches": ["https://ava.bambui.ifmg.edu.br/*"],
-        "css": ["src/css/cursosAtuais.css","src/css/meusCursos.css"],
-        "js": ["src/js/meusCursos.js", "src/js/cursosAtuais.js"]
+        "matches": ["https://ava.bambui.ifmg.edu.br/*", "https://ead5.ifmg.edu.br/*"],
+        "css": ["src/css/meusCursos.css"],
+        "js": ["src/js/meusCursos.js"]
       }
   ]
 }
